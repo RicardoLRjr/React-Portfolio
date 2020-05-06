@@ -38,7 +38,7 @@ main {
 /* NAV START */
 #logo {
   font-family: Georgia, Times, "Times New Roman", serif;
-
+ border-radius:.25rem!important
   /* Typography */
   font-size: 24px;
   font-weight: bold;

@@ -3,7 +3,7 @@ import React from 'react';
 const Home = () => {
     return (
         <div>
-        <main className="container">
+        <main className="container rounded">
     <section className="row">
       <div className="col-md-8">
         <article className="block">
@@ -16,7 +16,7 @@ const Home = () => {
             Proficient in React, CSS, Javascript, jQuery, MySQL, and MongoDB, and actively learning Python and AWS. Strong team player with a devotion to ensuring the highest quality product at all times.  
           </p>
           <br />
-          <p>Of course, I'm not all business! I'm also a competitive ballroom dancer, focusing on the dances in the Latin style. When I'm not working or dancing, I love reading and a good K-Drama!
+          <p>Of course, I'm not all business! I'm also a competitive ballroom dancer, focusing on the dances in the Latin style. When I'm not working or dancing, I love reading and I run a blog in my free time!
             I'm also an avid fan of FC Barcelona, the Atlanta Falcons, and the University of Georgia's athletic teams. I'm also learning Korean and Russian, and plan on traveling to (or living in!) both countries in the future.
           </p>
           <h1 className="block-header">
