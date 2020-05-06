@@ -1,10 +1,11 @@
 import React from 'react';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import NavBar from "./components/NavBar";
+import NavBar from "./components/navbar/NavBar";
+import Footer from "./components/footer/Footer"
 import Home from "./pages/Home";
 import Portfolio from "./pages/Portfolio";
 
-function App(props) {
+function App() {
   return (
     <>
     <Router>
@@ -17,6 +18,7 @@ function App(props) {
       <Portfolio/>
         </Route>
       </Switch>
+      <Footer/>
     </Router>
     </>
   );
