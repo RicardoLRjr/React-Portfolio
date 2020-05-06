@@ -3,7 +3,7 @@ import React from 'react';
 const NavBar = () => {
     return (
         <div>
-            <nav className="navbar  navbar-expand-lg navbar-light navbar-custom">
+            <nav className="navbar navbar-expand-lg navbar-light navbar-custom">
     <div className="container">
       <a className="navbar-brand" href="/" id="logo">Ricardo Russ's Portfolio</a>
       <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
