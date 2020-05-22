@@ -1,15 +1,19 @@
-const path = require('path');
-const express = require('express');
+require("dotenv").config();
+const express = require("express");
+
+const PORT = process.env.PORT || 3001;
+
 const app = express();
-const publicPath = path.join(__dirname, '..', 'public');
-const PORT = process.env.PORT || 3000;
 
-app.use(express.static(publicPath));
+app.use(express.urlencoded({ extended: true }));
+app.use(express.json());
 
-app.get('*', (req, res) => {
-    res.sendFile(path.join(publicPath, 'index.html'));
- });
+app.get("/api/config", (req, res) => {
+  res.json({
+    success: true,
+  });
+});
 
-app.listen(port, () => {
-    console.log(`Server running at ${port}`);
- });
+app.listen(PORT, () => {
+  console.log(`App is running on http://localhost:${PORT}`);
+});
